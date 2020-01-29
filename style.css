@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background: black;
+  padding: 20px;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav a {
+  color: white;
+  line-height: 40px;
+  padding: 20px;
+}
+
+header {
+  height: 300px;
+  background: url("https://assets.blinkloader.com/3287797048/4219038114_earth-800-R.webp");
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: .5em;
+}
+
+.btn {
+  padding: 20px;
+  background-color: red;
+  text-align: center;
+  display: inline-block;
+}
+
+.container {
+  width: 990px;
+  max-width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+.list {
+  border: 1px solid #f1f2f3;
+  box-shadow: 0 0 26px rgba(0,0,0,.06);
+}
+
+.list label {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
+}
+
+.list label img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.list input { display: none; }
+.list article { display: none; }
+.list input:checked ~ article { display: block; }
+
+.list article { padding: 20px; }
