@@ -21,7 +21,7 @@ async function fetchSpreadsheetData(url, cols) {
 async function load() {
   const items = await fetchSpreadsheetData(
     'https://spreadsheets.google.com/feeds/cells/1OS1cIxGmVGwqvwXs0bU0qzCDkZIN-Yrsw3Dx5scFy8c/1/public/full?alt=json',
-    ['name', 'url', 'category', 'payoutType', 'payMethod', 'fees', 'openSourceFocus', 'devFocus', 'short', 'description', 'logo']
+    ['name', 'url', 'category', 'payoutType', 'payMethod', 'fees', 'openSourceFocus', 'devFocus', 'screenshot', 'short', 'description', 'logo']
   )
 
   new Vue({
