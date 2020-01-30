@@ -84,16 +84,54 @@ p {
 header .container {
   padding-top: 80px;
   padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-header .container div {
+header .container .header-content {
   width: auto;
-  max-width: 600px;
+  max-width: 60%;
+  margin-right: 40px;
 }
-header .container div img {
+header .container .header-content img {
   margin-bottom: 40px;
 }
-header p {
-  margin-bottom: 2em;
+header .container .header-content p {
+  font-size: 1.1em;
+}
+
+header .container .card {
+  width: 40%;
+  height: auto;
+  background-color: #FFF;
+  border-radius: 6px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .container .card h4 {
+  color: #000;
+  margin-bottom: 10px;
+}
+header .container .card p {
+  color: #000;
+  margin-bottom: 40px;
+}
+
+form .text-field {
+  border-radius: 3px;
+  display: inline-block;
+  border: solid 1px #000;
+  width: 100%;
+  margin-bottom: 20px;
+}
+form .btn {
+  border: none;
+  width: 100%;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  border: solid 1px red;
 }
 
 .mb1 {
@@ -161,6 +199,7 @@ header p {
   text-decoration: none;
 }
 
+/*
 form .text-field {
   padding: 14px 20px;
   border-radius: 3px;
@@ -179,6 +218,7 @@ form .btn {
   padding-left: 40px !important;
   padding-right: 40px !important;
 }
+*/
 
 .container {
   width: 990px;
@@ -281,6 +321,21 @@ article .resource-details .details-category div span {
 .list article { padding: 40px; }
 
 @media only screen and (max-width: 768px) {
+  header .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+  header .container .header-content {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  header .container .card {
+    width: 100%;
+    padding: 20px;
+  }
   .list label {
     flex-direction: column;
   }
