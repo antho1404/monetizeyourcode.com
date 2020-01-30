@@ -18,7 +18,7 @@
   </nav>
   <header>
     <div class="container">
-      <h1>Fund my open source</h1>
+      <h1 class="mb2">Fund my open source</h1>
       <p>List of resource that can help you monetize your open source project.</p>
       <form action="">
         <input type="email">
@@ -27,21 +27,21 @@
     </div>
   </header>
   <div class="container">
-    <h3>list of resources</h3>
+    <h3 class="mt2 mb3">list of resources</h3>
     <div class="list">
       <div v-for="(item, i) in items" :key="i">
         <input :id="i" type="checkbox" />
         <label :for="i">
-          <img :src="item.logo" :alt="item.name" class="logo">
-          <div class="block-title">
-            <h4>{{ item.name }}</h4>
+          <img :src="item.logo" :alt="item.name" class="logo mr2">
+          <div class="block mr2">
+            <h5 class="mb1">{{ item.name }}</h5>
             <span class="tag">{{ item.category }}</span>
           </div>
-          <div class="block-desc">
+          <div class="block-desc mr2">
             <p>{{ item.short }}</p>
           </div>
-          <div class="block-category align-right">
-            <div class="category-check">
+          <div class="block align-right">
+            <div class="mb1">
               <span class="category">Open Source focus</span>
               <img class="check-box" v-if="item.openSourceFocus" src="assets/check-true.svg" alt="yes">
               <img class="check-box" v-else src="assets/check-false.svg" alt="no">
@@ -55,21 +55,27 @@
         </label>
         <article>
           <div class="presentation">
-            <img :src="item.screenshot" :alt="item.name" class="screenshot">
-            <p>{{ item.description }}</p>
+            <img :src="item.screenshot" :alt="item.name" class="screenshot mr3">
+            <div>
+              <h4 class="mb1">{{ item.name }}</h4>
+              <p>{{ item.description }}</p>
+            </div>
           </div>
+          <hr class="mt3 mb3" />
           <div class="details">
-            <div>
-              <span class="category">Payout type:</span>
-              <span>{{ item.payoutType }}</span>
-            </div>
-            <div>
-              <span class="category">Pay method:</span>
-              <span>{{ item.payMethod }}</span>
-            </div>
-            <div>
-              <span class="category">Fees:</span>
-              <span>{{ item.fees }}</span>
+            <div class="details-category">
+              <div class="mr3">
+                <span class="category mb1">Payout type:</span>
+                <span>{{ item.payoutType }}</span>
+              </div>
+              <div class="mr3">
+                <span class="category mb1">Pay method:</span>
+                <span>{{ item.payMethod }}</span>
+              </div>
+              <div class="mr3">
+                <span class="category mb1">Fees:</span>
+                <span>{{ item.fees }}</span>
+              </div>
             </div>
             <a class="btn" href="https://github.com/sponsors">Visit website</a>
           </div>
