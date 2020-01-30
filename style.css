@@ -127,7 +127,7 @@ header p {
 }
 
 .category {
-  font-size: .8em;
+  font-size: .8em !important;
   opacity: .5;
 }
 
@@ -163,26 +163,37 @@ header p {
 .list label {
   height: auto;
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding: 20px;
   cursor: pointer;
   border-bottom: solid 1px rgb(167, 167, 167);
 }
-.list label .logo {
+.list label .icon-title-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list label .icon {
   min-width: 60px;
   width: auto;
   max-width: 60px;
   height: auto;
   max-height: 60px;
 }
-.list label .block {
-  width: 240px;
+.list label .title-tag {
+  width: 200px;
 }
-.list label .block-desc {
-  width: 660px;
+.list label .short-description {
+  width: 680px;
 }
-.list label .block-desc p {
+.list label .short-description p {
   font-size: .8em;
+}
+.list label .section-check-box {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
 }
 .list label .check-box {
   width: 17px;
@@ -191,14 +202,14 @@ header p {
   max-height: 17px;
   margin-left: 5px;
   position: relative;
-  top: 3px;
+  top: 4px;
 }
 
 article {
   background-color: #F2F0F7;
   border-bottom: solid 2px black;
 }
-article .presentation {
+article .resource-presentation {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -213,18 +224,21 @@ article hr {
   width: 100%;
   border-top: dotted 1px #000;
 }
-article .details {
+article .resource-details {
   display: flex;
   flex-direction: row;
 }
-article .details .details-category {
-    width: 85%;
+article .resource-details .details-category {
+  width: 85%;
   display: flex;
   flex-direction: row;
 }
-article .details .details-category div {
+article .resource-details .details-category div {
   display: flex;
   flex-direction: column;
+}
+article .resource-details .details-category div span {
+  font-size: .9em;
 }
 
 
@@ -233,3 +247,52 @@ article .details .details-category div {
 .list input:checked ~ article { display: block; }
 
 .list article { padding: 40px; }
+
+@media only screen and (max-width: 768px) {
+  .list label {
+    flex-direction: column;
+  }
+  .list label .icon-title-tag {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .list label .short-description {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .list label .section-check-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .list label .section-check-box .category-check-box {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  article .resource-presentation {
+    flex-direction: column;
+  }
+  article .screenshot {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  article .resource-details {
+    flex-direction: column;
+  }
+  article .resource-details .details-category {
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  article .resource-details .details-category div {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+    article .resource-details .details-category div .category {
+    margin-right: 10px;
+  }
+}

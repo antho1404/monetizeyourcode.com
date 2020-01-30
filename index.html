@@ -32,16 +32,18 @@
       <div v-for="(item, i) in items" :key="i">
         <input :id="i" type="checkbox" />
         <label :for="i">
-          <img :src="item.logo" :alt="item.name" class="logo mr2">
-          <div class="block mr2">
-            <h5 class="mb1">{{ item.name }}</h5>
-            <span class="tag">{{ item.category }}</span>
+          <div class="icon-title-tag">
+            <img :src="item.logo" :alt="item.name" class="icon mr2">
+            <div class="title-tag mr2">
+              <h5 class="mb1">{{ item.name }}</h5>
+              <span class="tag">{{ item.category }}</span>
+            </div>
           </div>
-          <div class="block-desc mr2">
+          <div class="short-description mr2">
             <p>{{ item.short }}</p>
           </div>
-          <div class="block align-right">
-            <div class="mb1">
+          <div class="section-check-box align-right">
+            <div class="category-check-box mb1">
               <span class="category">Open Source focus</span>
               <img class="check-box" v-if="item.openSourceFocus" src="assets/check-true.svg" alt="yes">
               <img class="check-box" v-else src="assets/check-false.svg" alt="no">
@@ -54,15 +56,15 @@
           </div>
         </label>
         <article>
-          <div class="presentation">
+          <div class="resource-presentation">
             <img :src="item.screenshot" :alt="item.name" class="screenshot mr3">
             <div>
-              <h4 class="mb1">{{ item.name }}</h4>
-              <p>{{ item.description }}</p>
+              <h4 class="mb2">{{ item.name }}</h4>
+              <div v-html="item.description"></div>
             </div>
           </div>
           <hr class="mt3 mb3" />
-          <div class="details">
+          <div class="resource-details">
             <div class="details-category">
               <div class="mr3">
                 <span class="category mb1">Payout type:</span>
@@ -77,7 +79,7 @@
                 <span>{{ item.fees }}</span>
               </div>
             </div>
-            <a class="btn" href="https://github.com/sponsors">Visit website</a>
+            <a class="btn" :href="item.url" target="_blank">Visit website</a>
           </div>
         </article>
       </div>
