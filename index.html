@@ -27,17 +27,52 @@
     </div>
   </header>
   <div class="container">
+    <h3>list of resources</h3>
     <div class="list">
       <div v-for="(item, i) in items" :key="i">
         <input :id="i" type="checkbox" />
         <label :for="i">
-          <img :src="item.logo" :alt="item.name">
-          <h3>{{ item.name }}</h3>
-          <span>{{ item.category }}</span>
+          <img :src="item.logo" :alt="item.name" class="logo">
+          <div class="block-title">
+            <h4>{{ item.name }}</h4>
+            <span class="tag">{{ item.category }}</span>
+          </div>
+          <div class="block-desc">
+            <p>{{ item.short }}</p>
+          </div>
+          <div class="block-category align-right">
+            <div class="category-check">
+              <span class="category">Open Source focus</span>
+              <img class="check-box" v-if="item.openSourceFocus" src="assets/check-true.svg" alt="yes">
+              <img class="check-box" v-else src="assets/check-false.svg" alt="no">
+            </div>
+            <div>
+              <span class="category">Developer focus</span>
+              <img class="check-box" v-if="item.devFocus" src="assets/check-true.svg" alt="yes">
+              <img class="check-box" v-else src="assets/check-false.svg" alt="no">
+            </div>
+          </div>
         </label>
         <article>
-          <p>{{ item.description }}</p>
-          <a class="btn" href="https://github.com/sponsors">Visit website</a>
+          <div class="presentation">
+            <img :src="item.screenshot" :alt="item.name" class="screenshot">
+            <p>{{ item.description }}</p>
+          </div>
+          <div class="details">
+            <div>
+              <span class="category">Payout type:</span>
+              <span>{{ item.payoutType }}</span>
+            </div>
+            <div>
+              <span class="category">Pay method:</span>
+              <span>{{ item.payMethod }}</span>
+            </div>
+            <div>
+              <span class="category">Fees:</span>
+              <span>{{ item.fees }}</span>
+            </div>
+            <a class="btn" href="https://github.com/sponsors">Visit website</a>
+          </div>
         </article>
       </div>
     </div>
