@@ -53,19 +53,58 @@ header {
 
 h1 {
   font-size: 3em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
   margin-bottom: .5em;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+h4 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: .2em;
 }
 
 p {
-  margin-bottom: .5em;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+header p {
+  margin-bottom: 2em;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.category {
+  font-size: 15px;
+  opacity: .5;
+}
+
+.tag {
+  font-size: 12px;
+  background-color: #f1f8ff;
+  color: #0366d6;
+  border-radius: 3px;
+  padding: .3em .9em;
+  display: inline-block;
 }
 
 .btn {
   padding: 20px;
+  border-radius: 3px;
   background-color: red;
   text-align: center;
   display: inline-block;
@@ -84,17 +123,85 @@ p {
 }
 
 .list label {
+  height: 100px;
   display: flex;
+  align-items: center;
+  align-items: center;
   padding: 20px;
   cursor: pointer;
   border-bottom: solid 1px black;
-  border-top: solid 1px black;
 }
 
-.list label img {
-  height: 80px;
-  margin-right: 20px;
+.list label .logo {
+  min-width: 60px;
+  width: auto;
+  max-width: 60px;
+  height: auto;
+  max-height: 60px;
+  margin-right: 1.5em;
 }
+
+.list label .block-title {
+  width: 300px;
+  margin-right: 1.5em;
+}
+.list label .block-desc {
+  width: 600px;
+  margin-right: 1.5em;
+}
+.list label .block-category {
+  width: 300px;
+}
+
+.list label .category-check {
+  margin-bottom: .5em;
+}
+
+.list label .check-box {
+  width: 17px;
+  max-width: 17px;
+  height: 17px;
+  max-height: 17px;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+
+article {
+  background-color: #F2F0F7;
+}
+
+article .presentation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+article .screenshot {
+  max-width: auto;
+  height: 200px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  margin-right : 40px;
+  border: 1px solid #000;
+}
+
+article p {
+  margin-bottom: 2em;
+}
+
+article .details {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+
+article .details div {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .list input { display: none; }
 .list article { display: none; }
