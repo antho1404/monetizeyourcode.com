@@ -120,6 +120,8 @@ header .container .card p {
 }
 
 form .text-field {
+  padding: 14px;
+  box-sizing: border-box;
   border-radius: 3px;
   display: inline-block;
   border: solid 1px #000;
@@ -320,6 +322,13 @@ article .resource-details .details-category div span {
 
 .list article { padding: 40px; }
 
+footer {
+  background-color: #000;
+  height: auto;
+  color: #fff;
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   header .container {
     padding-top: 40px;
@@ -383,3 +392,4 @@ article .resource-details .details-category div span {
     margin-right: 10px;
   }
 }
+
