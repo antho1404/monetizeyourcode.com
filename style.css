@@ -22,6 +22,7 @@ time, mark, audio, video {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
 }
 
 nav {
@@ -45,40 +46,58 @@ nav a {
 header {
   min-height: 300px;
   height: auto;
-  background: url("https://assets.blinkloader.com/3287797048/4219038114_earth-800-R.webp");
+  background-color: #d6e4ff;
+  background: linear-gradient(to top, rgba(214,228,255,0.95), rgba(214,228,255,0.95) ) , url("https://images.pexels.com/photos/1329318/pexels-photo-1329318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center;
+  background-size: cover;
   display: flex;
   justify-content: left;
   align-items: center;
-  color: white;
+  color: white !important;
+  border-bottom: solid 2px #d9d9d9;
 }
 
 h1 {
   font-size: 3em;
   font-weight: bold;
+  color: #0d0d0d;
 }
 
 h2 {
   font-size: 2.5em;
   font-weight: bold;
+  color: #0d0d0d;
 }
 
 h3 {
   font-size: 2em;
   font-weight: bold;
+  color: #0d0d0d;
 }
 
 h4 {
   font-size: 1.3em;
   font-weight: bold;
+  color: #0d0d0d;
 }
 h5 {
   font-size: 1.1em;
   font-weight: bold;
+  color: #0d0d0d;
 }
 
 p {
   line-height: 1.7;
   font-size: .9em;
+  color: #404040;
+}
+
+a {
+  color: #3366ff;
+  text-decoration: underline;
+}
+a:hover {
+  color: #1939b7;
+  text-decoration: none;
 }
 
 header .container {
@@ -94,6 +113,8 @@ header .container .header-content {
   margin-right: 40px;
 }
 header .container .header-content img {
+  width: auto;
+  height: 40px;
   margin-bottom: 40px;
 }
 header .container .header-content p {
@@ -109,6 +130,11 @@ header .container .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+header .container .card .icon-mailbox {
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 header .container .card h4 {
   color: #000;
@@ -116,7 +142,7 @@ header .container .card h4 {
 }
 header .container .card p {
   color: #000;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 form .text-field {
@@ -124,7 +150,7 @@ form .text-field {
   box-sizing: border-box;
   border-radius: 3px;
   display: inline-block;
-  border: solid 1px #000;
+  border: solid 1px #d9d9d9;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -133,7 +159,7 @@ form .btn {
   width: 100%;
   padding-left: 40px !important;
   padding-right: 40px !important;
-  border: solid 1px red;
+  cursor: pointer;
 }
 
 .mb1 {
@@ -180,7 +206,7 @@ form .btn {
 
 .category {
   font-size: .8em !important;
-  opacity: .5;
+  color: #737373;
 }
 
 .tag {
@@ -195,10 +221,17 @@ form .btn {
 .btn {
   padding: 14px 20px;
   border-radius: 3px;
-  background-color: red;
+  background-color: #3366ff;
+  color: #fff;
   text-align: center;
   display: inline-block;
   text-decoration: none;
+  transition: 0.1s ease-in;
+  font-size: .9em;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #1939b7;
 }
 
 /*
@@ -229,10 +262,15 @@ form .btn {
   margin: auto;
 }
 
+.title-table {
+  color: #737373;
+}
+
 .list {
   border: 1px solid #f1f2f3;
+  background-color: #FFF;
   border-radius: 6px;
-  box-shadow: 0 0 26px rgba(0,0,0,.06);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
 }
 .list label {
   height: auto;
@@ -241,7 +279,11 @@ form .btn {
   align-items: center;
   padding: 20px;
   cursor: pointer;
-  border-bottom: solid 1px rgb(167, 167, 167);
+  border-bottom: solid 1px #d9d9d9;
+  transition: 0.1s ease-in;
+}
+.list label:hover {
+  background-color: #f7f7f7;
 }
 .list label .icon-title-tag {
   display: flex;
@@ -280,8 +322,8 @@ form .btn {
 }
 
 article {
-  background-color: #F2F0F7;
-  border-bottom: solid 2px black;
+  background-color: #fff;
+  border-bottom: solid 2px #737373;
 }
 article .resource-presentation {
   display: flex;
@@ -296,7 +338,7 @@ article .screenshot {
 }
 article hr {
   width: 100%;
-  border-top: dotted 1px #000;
+  border-top: solid 1px #d9d9d9;
 }
 article .resource-details {
   display: flex;
@@ -323,9 +365,10 @@ article .resource-details .details-category div span {
 .list article { padding: 40px; }
 
 footer {
-  background-color: #000;
+  border-top: solid 2px #d9d9d9;
+  background-color: #d6e4ff;
   height: auto;
-  color: #fff;
+  color: #404040;
   text-align: center;
 }
 
