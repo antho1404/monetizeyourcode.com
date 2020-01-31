@@ -272,7 +272,7 @@ form .btn {
   border-radius: 6px;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
 }
-.list label {
+.list a {
   height: auto;
   display: flex;
   flex-direction: row;
@@ -281,37 +281,38 @@ form .btn {
   cursor: pointer;
   border-bottom: solid 1px #d9d9d9;
   transition: 0.1s ease-in;
+  text-decoration: none;
 }
-.list label:hover {
+.list a:hover {
   background-color: #f7f7f7;
 }
-.list label .icon-title-tag {
+.list a .icon-title-tag {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.list label .icon {
+.list a .icon {
   min-width: 60px;
   width: auto;
   max-width: 60px;
   height: auto;
   max-height: 60px;
 }
-.list label .title-tag {
+.list a .title-tag {
   width: 200px;
 }
-.list label .short-description {
+.list a .short-description {
   width: 680px;
 }
-.list label .short-description p {
+.list a .short-description p {
   font-size: .8em;
 }
-.list label .section-check-box {
+.list a .section-check-box {
   width: 220px;
   display: flex;
   flex-direction: column;
 }
-.list label .check-box {
+.list a .check-box {
   width: 17px;
   max-width: 17px;
   height: 17px;
@@ -358,10 +359,6 @@ article .resource-details .details-category div span {
 }
 
 
-.list input { display: none; }
-.list article { display: none; }
-.list input:checked ~ article { display: block; }
-
 .list article { padding: 40px; }
 
 footer {
@@ -388,24 +385,24 @@ footer {
     width: 100%;
     padding: 20px;
   }
-  .list label {
+  .list a {
     flex-direction: column;
   }
-  .list label .icon-title-tag {
+  .list a .icon-title-tag {
     width: 100%;
     margin-bottom: 20px;
   }
-  .list label .short-description {
+  .list a .short-description {
     width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
   }
-  .list label .section-check-box {
+  .list a .section-check-box {
     width: 100%;
     display: flex;
     flex-direction: row;
   }
-  .list label .section-check-box .category-check-box {
+  .list a .section-check-box .category-check-box {
     margin-right: 20px;
     margin-bottom: 0;
   }
