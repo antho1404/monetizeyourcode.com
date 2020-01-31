@@ -334,7 +334,7 @@ article .screenshot {
   max-width: auto;
   height: 200px;
   border-radius: 6px;
-  border: 1px solid #000;
+  border: 1px solid #d9d9d9;
 }
 article hr {
   width: 100%;
