@@ -129,18 +129,24 @@ header .container .card {
   flex-direction: column;
   justify-content: center;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  color: #000;
 }
 header .container .card .icon-mailbox {
   font-size: 2em;
   margin-bottom: 10px;
 }
 header .container .card h4 {
-  color: #000;
   margin-bottom: 10px;
 }
 header .container .card p {
-  color: #000;
   margin-bottom: 20px;
+}
+
+header .container .card .sg-response.success {
+  color: green;
+}
+header .container .card .sg-response.error {
+  color: red;
 }
 
 form .text-field {
