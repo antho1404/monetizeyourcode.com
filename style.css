@@ -229,7 +229,7 @@ form .btn {
 }
 .btn:hover {
   color: #fff;
-  background-color: #1939b7;
+  background-color: #1939b7 !important;
 }
 
 /*
@@ -258,10 +258,6 @@ form .btn {
   max-width: 100%;
   padding: 20px;
   margin: auto;
-}
-
-.title-table {
-  color: #737373;
 }
 
 .list {
