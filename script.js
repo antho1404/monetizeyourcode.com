@@ -28,6 +28,18 @@ async function load() {
     el: '.list',
     data: {
       items: items.map(x => ({ ...x, open: false }))
+    },
+    methods: {
+      toggle(item) {
+        item.open = !item.open
+        if (item.open) {
+          dataLayer.push({
+            id: item.id,
+            category: item.category,
+            event: 'open'
+          })
+        }
+      }
     }
   })
 }

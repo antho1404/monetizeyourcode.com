@@ -60,7 +60,7 @@
     <h3 class="title-table mt2 mb3">list of resources</h3>
     <div class="list mb3">
       <div v-for="item in items" :key="item.id">
-        <a v-on:click="item.open = !item.open" class="item" :class="{ track: !item.open }" :id="item.id"
+        <a v-on:click="toggle(item)" class="item" :class="{ track: !item.open }" :id="item.id"
           :data-id="item.id" :data-category="item.category">
           <div class="icon-title-tag">
             <img :src="item.logo" :alt="item.name" class="icon mr2">
