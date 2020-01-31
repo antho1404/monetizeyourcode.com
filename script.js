@@ -36,7 +36,7 @@ async function load() {
           dataLayer.push({
             id: item.id,
             category: item.category,
-            event: 'open'
+            type: 'open'
           })
         }
       }
