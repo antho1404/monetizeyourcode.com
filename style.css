@@ -47,8 +47,6 @@ header {
   min-height: 300px;
   height: auto;
   background-color: #d6e4ff;
-  background: linear-gradient(to top, rgba(214,228,255,0.95), rgba(214,228,255,0.95) ) , url("https://images.pexels.com/photos/1329318/pexels-photo-1329318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center;
-  background-size: cover;
   display: flex;
   justify-content: left;
   align-items: center;
