@@ -340,6 +340,36 @@ article .resource-details .details-category div span {
 
 .list article { padding: 40px; }
 
+.twitter-card {
+  text-decoration: none;
+  transition: 0.1s ease-in;
+  padding: 40px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  display: flex;
+}
+.twitter-card:hover {
+  background-color: #FFF;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+.twitter-card .twitter-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.twitter-card .twitter-logo {
+  max-width: 40px;
+  height: auto;
+}
+.twitter-card h4 {
+  width: 100%;
+}
+.twitter-card .icon-arrow {
+  max-width: 24px;
+}
+
 footer {
   border-top: solid 2px #d9d9d9;
   background-color: #d6e4ff;
