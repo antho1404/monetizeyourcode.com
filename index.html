@@ -54,17 +54,22 @@
           OSS projects.</p>
       </div>
       <div class="card">
-        <span class="icon-mailbox">📬</span>
-        <h4>OSS funding resources in your inbox</h4>
-        <p>Stay updated and contribute to collaborative resources. Let's make Open Source Software sustainable 🦾</p>
+        <div class="card-head">
+          <img src="assets/sheets-icon.svg" alt="Google sheets" class="icon-sheets">
+          <h4>Contribute to the full collaborative list</h4>
+        </div>
+        <hr class="mt2 mb2">
+        <p>Get access to the shared spreadsheet of OSS funding resources. Let’s make open source software
+          sustainable 🦾
+        </p>
         <script type="text/javascript" src="//app.sgwidget.com/js/sg-widget-v2.js"></script>
         <div class="sendgrid-subscription-widget widget-1310" data-emailerror="Please enter a valid email address"
           data-nameerror="Please enter your name" data-checkboxerror="Please tick the box to accept our conditions">
           <form class="sg-widget" data-token="d6a38e07d7b78c2fd9918008e1390dad" onsubmit="return false;">
             <div class="sg-response"></div>
-            <input class="sg_email text-field" type="email" name="sg_email" placeholder="Enter your email address"
+            <input class="sg_email text-field mb2" type="email" name="sg_email" placeholder="Enter your email address"
               required="required">
-            <input type="submit" class="sg-submit-btn btn" id="widget-1310" value="Sign me up">
+            <input type="submit" class="sg-submit-btn btn" id="widget-1310" value="Send me the full list">
           </form>
         </div>
       </div>
@@ -127,13 +132,28 @@
         </article>
       </div>
     </div>
-    <a href="https://twitter.com/MonetizeOSS" target="_blank" class="twitter-card  mt2 mb3">
-      <div class="twitter-content">
-        <img class="twitter-logo mr2" src="assets/twitter-logo.svg" alt="twitter logo">
-        <span>Join the conversation</span>
-        <img class="icon-arrow" src="assets/arrow-right.svg" alt="icon arrow right">
+    <div class="twitter-newsletter mb3">
+      <a href="https://twitter.com/MonetizeOSS" target="_blank" class="twitter-card">
+        <div class="twitter-content">
+          <img class="twitter-logo mr2" src="assets/twitter-logo.svg" alt="twitter logo">
+          <span>Join the conversation</span>
+          <img class="icon-arrow" src="assets/arrow-right.svg" alt="icon arrow right">
+        </div>
+      </a>
+      <div class="newsletter-card">
+        <span class="mb2">📬 OSS funding resources in your inbox</span>
+        <script type="text/javascript" src="//app.sgwidget.com/js/sg-widget-v2.js"></script>
+        <div class="sendgrid-subscription-widget widget-1310" data-emailerror="Please enter a valid email address"
+          data-nameerror="Please enter your name" data-checkboxerror="Please tick the box to accept our conditions">
+          <form class="sg-widget" data-token="d6a38e07d7b78c2fd9918008e1390dad" onsubmit="return false;">
+            <div class="sg-response"></div>
+            <input class="sg_email text-field mr2" type="email" name="sg_email" placeholder="Enter your email address"
+              required="required">
+            <input type="submit" class="sg-submit-btn btn" id="widget-1310" value="Sign me up">
+          </form>
+        </div>
       </div>
-    </a>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="script.js"></script>

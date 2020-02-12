@@ -131,12 +131,19 @@ header .container .card {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
   color: #000;
 }
-header .container .card .icon-mailbox {
-  font-size: 2em;
-  margin-bottom: 10px;
+header .container .card .card-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-header .container .card h4 {
-  margin-bottom: 10px;
+header .container .card .icon-sheets {
+  max-width: 30px;
+  height: auto;
+  margin-right: 20px;
+}
+header .container .card hr {
+  width: 100%;
+  border: 1px dotted #d9d9d9;
 }
 header .container .card p {
   margin-bottom: 20px;
@@ -156,7 +163,6 @@ form .text-field {
   display: inline-block;
   border: solid 1px #d9d9d9;
   width: 100%;
-  margin-bottom: 20px;
 }
 form .btn {
   border: none;
@@ -340,7 +346,14 @@ article .resource-details .details-category div span {
 
 .list article { padding: 40px; }
 
+.twitter-newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .twitter-card {
+  width: 48%;
   text-decoration: none;
   transition: 0.1s ease-in;
   padding: 20px;
@@ -371,6 +384,30 @@ article .resource-details .details-category div span {
 }
 .twitter-card .icon-arrow {
   max-width: 17px;
+}
+
+.newsletter-card {
+  width: 48%;
+  padding: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  transition: 0.1s ease-in;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter-card:hover {
+  background-color: #FFF;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+.newsletter-card span {
+  font-weight: bold;
+}
+.newsletter-card form {
+  display: flex;
+  flex-direction: row;
+}
+.newsletter-card form .btn {
+  width: auto !important;
 }
 
 footer {
@@ -442,6 +479,22 @@ footer {
   }
     article .resource-details .details-category div .category {
     margin-right: 10px;
+  }
+  .twitter-newsletter {
+  flex-direction: column;
+  }
+  .twitter-card {
+  width: 100%;
+  margin-bottom: 40px;
+  }
+  .newsletter-card {
+  width: 100%;
+  }
+  .newsletter-card form {
+  flex-direction: column;
+  }
+  .newsletter-card form .text-field {
+  margin-bottom: 20px;
   }
 }
 
