@@ -47,19 +47,24 @@
   <header>
     <div class="container">
       <div class="header-content">
-        <img src="monetizeyourcode-logo.svg" alt="logo">
+        <img src="monetizeyourcode-logo.svg" alt="logo" class="MYC-logo">
         <h1 class="mb2">Resources to monetize your code</h1>
-        <p>Open-source developers lack solutions that support their work. This list was created to help you
+        <p class="mb2">Open-source developers lack solutions that support their work. This list was created to help you
           fund your
           OSS projects.</p>
+        <div class="resources-link">
+          <img src="assets/sheets-icon.svg" alt="Google sheets" class="icon-sheets">
+          <a href="https://docs.google.com/spreadsheets/d/1q3oMe3sWanEh8UpDajkaxZ7LqI6T-rdRqjO3TZB6QZA/edit#gid=0"
+            target="_blank">Contribute to the full list of resources</a>
+        </div>
       </div>
       <div class="card">
         <div class="card-head">
-          <img src="assets/sheets-icon.svg" alt="Google sheets" class="icon-sheets">
-          <h4>Contribute to the full list</h4>
+          <span class="icon-inbox">📬</span>
+          <h4>OSS funding tips in your inbox</h4>
         </div>
         <hr class="mt2 mb2">
-        <p>Get access to the shared spreadsheet of OSS funding resources. Let’s make open source software
+        <p>Stay updated on the latest open-source monetization strategies. Let’s make open source software
           sustainable 🦾
         </p>
         <script type="text/javascript" src="//app.sgwidget.com/js/sg-widget-v2.js"></script>
@@ -69,21 +74,21 @@
             <div class="sg-response"></div>
             <input class="sg_email text-field mb2" type="email" name="sg_email" placeholder="Enter your email address"
               required="required">
-            <input type="submit" class="sg-submit-btn btn" id="widget-1310" value="Send me the full list">
+            <input type="submit" class="sg-submit-btn btn" id="widget-1310" value="Sign me up">
           </form>
         </div>
       </div>
     </div>
   </header>
   <div class="container">
-    <div class="list mb3 mt3">
+    <div class="list mb4 mt4">
       <div v-for="item in items" :key="item.id">
         <a v-on:click="toggle(item)" class="item" :class="{ track: !item.open }" :id="item.id" :data-id="item.id"
           :data-category="item.category">
           <div class="icon-title-tag">
             <img :src="item.logo" :alt="item.name" class="icon mr2">
             <div class="title-tag mr2">
-              <h5 class="mb1">{{ item.name }}</h5>
+              <h4 class="mb1">{{ item.name }}</h4>
               <span class="tag">{{ item.category }}</span>
             </div>
           </div>
@@ -107,7 +112,7 @@
           <div class="resource-presentation">
             <img :src="item.screenshot" :alt="item.name" class="screenshot mr3">
             <div>
-              <h4 class="mb2">{{ item.name }}</h4>
+              <h3 class="mb2">{{ item.name }}</h3>
               <div v-html="item.description"></div>
             </div>
           </div>
@@ -132,7 +137,21 @@
         </article>
       </div>
     </div>
-    <div class="twitter-newsletter mb3">
+    <div class="resources-cta align-center">
+      <div class="resources-cta-content mb3">
+        <h2 class="mb2">Contribute to the full list of resources</h2>
+        <p>Help us in building an expanded list of OSS monetization resources, like articles, videos or products. It’s
+          free and open to any contribution.
+        </p>
+      </div>
+      <a class="btn"
+        href="https://docs.google.com/spreadsheets/d/1q3oMe3sWanEh8UpDajkaxZ7LqI6T-rdRqjO3TZB6QZA/edit#gid=0"
+        target="_blank">
+        <img src="assets/sheets-icon.svg" alt="Google sheets" class="icon-sheets">
+        <span>See the full collaborative list</span></a>
+    </div>
+    <hr class="mt4 mb4" />
+    <div class="twitter-newsletter mb4">
       <a href="https://twitter.com/MonetizeOSS" target="_blank" class="twitter-card">
         <div class="twitter-content">
           <img class="twitter-logo mr2" src="assets/twitter-logo.svg" alt="twitter logo">

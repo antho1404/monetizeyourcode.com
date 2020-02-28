@@ -61,24 +61,24 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-weight: bold;
   color: #0d0d0d;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: bold;
   color: #0d0d0d;
 }
 
 h4 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
   color: #0d0d0d;
 }
 h5 {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   color: #0d0d0d;
 }
@@ -110,13 +110,23 @@ header .container .header-content {
   max-width: 60%;
   margin-right: 40px;
 }
-header .container .header-content img {
+header .container .header-content .MYC-logo {
   width: auto;
   height: 40px;
   margin-bottom: 40px;
 }
 header .container .header-content p {
   font-size: 1.1em;
+}
+header .container .header-content .resources-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .container .header-content .icon-sheets {
+  width: auto;
+  height: 24px;
+  margin-right: 10px;
 }
 
 header .container .card {
@@ -136,9 +146,8 @@ header .container .card .card-head {
   flex-direction: row;
   align-items: center;
 }
-header .container .card .icon-sheets {
-  max-width: 30px;
-  height: auto;
+header .container .card .icon-inbox {
+  font-size: 40px;
   margin-right: 20px;
 }
 header .container .card hr {
@@ -181,6 +190,9 @@ form .btn {
 .mb3 {
   margin-bottom: 40px;
 }
+.mb4 {
+  margin-bottom: 80px;
+}
 .mt1 {
   margin-top: 10px;
 }
@@ -189,6 +201,9 @@ form .btn {
 }
 .mt3 {
   margin-top: 40px;
+}
+.mt4 {
+  margin-top: 80px;
 }
 .ml1 {
   margin-left: 10px;
@@ -212,6 +227,9 @@ form .btn {
 
 .align-right {
   text-align: right;
+}
+.align-center {
+  text-align: center;
 }
 
 .category {
@@ -324,7 +342,6 @@ article .screenshot {
 }
 article hr {
   width: 100%;
-  border-top: solid 1px #d9d9d9;
 }
 article .resource-details {
   display: flex;
@@ -345,6 +362,32 @@ article .resource-details .details-category div span {
 
 
 .list article { padding: 40px; }
+
+.resources-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resources-cta .resources-cta-content {
+  max-width: 680px;
+}
+.resources-cta .icon-sheets {
+  width: auto;
+  height: 24px;
+  margin-right: 10px;
+}
+.resources-cta .btn {
+  width: auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border: 1px solid #d9d9d9;
+}
 
 .twitter-newsletter {
   display: flex;
@@ -378,7 +421,7 @@ article .resource-details .details-category div span {
 }
 .twitter-card span {
   color: #0d0d0d;
-  font-size: .9em;
+  font-size: 1.1em;
   font-weight: bold;
   width: 100%;
 }
@@ -400,6 +443,7 @@ article .resource-details .details-category div span {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
 }
 .newsletter-card span {
+  font-size: 1.1em;
   font-weight: bold;
 }
 .newsletter-card form {
@@ -433,6 +477,12 @@ footer {
   header .container .card {
     width: 100%;
     padding: 20px;
+  }
+  .mt4 {
+    margin-top: 40px;
+  }
+  .mb4 {
+    margin-bottom: 40px;
   }
   .list a {
     flex-direction: column;
@@ -477,8 +527,12 @@ footer {
     flex-direction: row;
     margin-bottom: 20px;
   }
-    article .resource-details .details-category div .category {
+  article .resource-details .details-category div .category {
     margin-right: 10px;
+  }
+  .resources-cta .btn {
+    max-width: 100%;
+    width: 100%;
   }
   .twitter-newsletter {
   flex-direction: column;
