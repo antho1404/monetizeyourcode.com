@@ -1,0 +1,9 @@
+name: list-resources
+steps:
+  - type: trigger
+    endpointKey: list
+  - type: task
+    service: database
+    taskKey: list
+    inputs:
+      collection: projects
