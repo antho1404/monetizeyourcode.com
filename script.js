@@ -6,7 +6,8 @@ new Vue({
     };
   },
   methods: {
-    toggle(item) {
+    toggle(id) {
+      const item = this.items.find((x) => x.id === id);
       item.open = !item.open;
       if (item.open) {
         dataLayer.push({
@@ -15,6 +16,7 @@ new Vue({
           type: "open",
         });
       }
+      this.items = [...this.items];
     },
   },
   mounted() {
