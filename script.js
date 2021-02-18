@@ -20,11 +20,9 @@ new Vue({
     },
   },
   mounted() {
-    fetch("https://gateway.liteflow.com/af07defd-730f-4f8f-9593-34f6148d3c48", {
-      method: "POST",
-    })
+    fetch("/list.json")
       .then((x) => x.json())
-      .then((x) => x.outputs.values.map((y) => y.value))
+      .then((x) => x.values.map((y) => y.value))
       .then((x) => (this.items = x));
   },
 });

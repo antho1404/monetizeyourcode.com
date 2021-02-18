@@ -1,0 +1,365 @@
+{
+  "collection": "projects",
+  "values": [
+    {
+      "id": "065a8bba-1f1a-45b2-9439-475741bf5146",
+      "value": {
+        "id": "github",
+        "name": "Github Sponsors",
+        "url": "https://github.com/sponsors",
+        "category": "Sponsorship",
+        "payoutType": "Recurring ",
+        "payMethod": "Fiat",
+        "fees": "0% + payment processing costs",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/github.png",
+        "short": "Sponsorship on GitHub for those who design, build, and maintain open-source code.",
+        "description": "<p>GitHub Sponsors allows the developer community to financially support the people and organizations who design, build, and maintain the open source projects they depend on, directly on GitHub.</p>\n</br>\n<p>Anyone with a GitHub account can sponsor anyone with a sponsored developer profile or sponsored organization profile through a recurring monthly payment. You can choose from multiple sponsorship tiers, with monthly payment amounts and benefits that are set by the sponsored developer or organization.</p>",
+        "logo": "/assets/logos/github-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:24.367Z",
+      "updatedAt": "2020-08-27T05:29:24.367Z"
+    },
+    {
+      "id": "2786a8cf-6cc4-4ef0-bdf0-28462e7501c0",
+      "value": {
+        "id": "codefund",
+        "name": "CodeFund",
+        "url": "https://codefund.io/publishers",
+        "category": "Advertising",
+        "payoutType": "Monthly",
+        "payMethod": "Fiat",
+        "fees": "-",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/codefund.png",
+        "short": "An ethical alternative to digital advertising for developers.",
+        "description": "<p>CodeFund is an open source ad platform that connects software developers with highly relevant products, services, and brands through ethical advertising.</p>\n</br>\n<p>It finds companies that provide products or services that are ideal for software engineers and sell them ad space on multiple websites, including yours.</p>\n</br>\n<p>Developers use either CodeFund’s in-house script or the API to display the ethical advertisement on their websites. Each time the ad is seen, the monthly payout amount increases.</p>",
+        "logo": "/assets/logos/codefund-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.718Z",
+      "updatedAt": "2020-08-27T05:29:45.718Z"
+    },
+    {
+      "id": "bd17cb37-52f9-4ad0-84d6-64ca3dd95158",
+      "value": {
+        "id": "open-collective",
+        "name": "Open Collective",
+        "url": "https://opencollective.com/",
+        "category": "Sponsorship",
+        "payoutType": "Recurring, one-time",
+        "payMethod": "Fiat",
+        "fees": "5% + credit card fees (+ host fees if any*)",
+        "openSourceFocus": true,
+        "devFocus": false,
+        "screenshot": "/assets/screenshots/opencollective.png",
+        "short": "A funding platform for open and transparent projects.",
+        "description": "<p>Open Collective provides tools to raise and share your finances in full transparency.</p>\n</br>\n<p>It helps collect money recurrently for your community. Once you have money on Open Collective, it’s easy to spend it and everyone can see how it’s being spent.</p>\n</br>\n<p>The company is founded on the belief that financial transparency in a community will create stronger and more efficient collaboration among people.</p>",
+        "logo": "/assets/logos/opencollective-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.720Z",
+      "updatedAt": "2020-08-27T05:29:45.720Z"
+    },
+    {
+      "id": "8411f969-d4dd-47f5-944b-727beb17dd06",
+      "value": {
+        "id": "mozilla",
+        "name": "Mozilla Open Source Support ",
+        "url": "https://www.mozilla.org/en-US/moss/",
+        "category": "Grant",
+        "payoutType": "One-time",
+        "payMethod": "Fiat",
+        "fees": "-",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/mozilla.png",
+        "short": "Awards program to support open-source projects and technologists.",
+        "description": "<p>Mozilla Open Source Support (MOSS) awards recognize, celebrate, and support open source projects that contribute to Mozilla’s work and to the health of the Internet.</p>\n</br>\n<p>MOSS broadens access, increases security, and empowers users by providing catalytic funding to open source technologists.</p>\n</br>\n<p>Applications are accepted on a rolling basis and are reviewed monthly by an expert selection panel.</p>",
+        "logo": "/assets/logos/mozilla-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.728Z",
+      "updatedAt": "2020-08-27T05:29:45.728Z"
+    },
+    {
+      "id": "bddfe567-8911-433d-86ff-3f7489cd6c79",
+      "value": {
+        "id": "xs-code",
+        "name": "xs.code",
+        "url": "https://xscode.com/",
+        "category": "Code Paywall",
+        "payoutType": "Recurring ",
+        "payMethod": "Fiat",
+        "fees": "25% on revenue made",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/xscode.png",
+        "short": "Sell additional value to free, open-source code such as licenses, features, or support.",
+        "description": "<p>xs:code puts the power in the hands of the developers, allowing them to offer added value in a paid version of their code. The added value can be a commercial license, more features, support services or anything they can think of - as long as it is not offered in the free version available on their Github account.</p>\n</br>\n<p>Companies buy a monthly subscription for accessing the code, and enjoy better software created by motivated developers.</p>\n</br>\n<p>xs:code makes sure the code remains open-source, so developers can continue accepting code contributions, and share their revenue with their contributors via the platform.</p>",
+        "logo": "/assets/logos/xscode-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.728Z",
+      "updatedAt": "2020-08-27T05:29:45.728Z"
+    },
+    {
+      "id": "693ab127-d36d-4198-ac47-50d20ef1ae00",
+      "value": {
+        "id": "liberapay",
+        "name": "Liberapay",
+        "url": "https://liberapay.com/explore/individuals",
+        "category": "Sponsorship",
+        "payoutType": "Recurring ",
+        "payMethod": "Fiat",
+        "fees": "0% + payment processor fees (<5%)",
+        "openSourceFocus": false,
+        "devFocus": false,
+        "screenshot": "/assets/screenshots/liberapay.png",
+        "short": "Recurrent donations platform made for creators of free content.",
+        "description": "<p>Liberapay is a donations platform built to support creators who create free content, such as open-source developers. Creators use Liberapay to receive support from their audience and fans.</p>\n</br>\n<p>Simply create an account, fill in your profile, and ask your audience to financially support your work.</p>",
+        "logo": "/assets/logos/liberapay-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.739Z",
+      "updatedAt": "2020-08-27T05:29:45.739Z"
+    },
+    {
+      "id": "459f8c9c-520f-4ee2-a5ea-2eae212b949e",
+      "value": {
+        "id": "comunity-bridge",
+        "name": "CommunityBridge",
+        "url": "https://communitybridge.org/",
+        "category": "Sponsorship ",
+        "payoutType": "Recurring, one time",
+        "payMethod": "Fiat",
+        "fees": "Free until $10M raised",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/communitybridge.png",
+        "short": "Transparent crowdfunding, free up to $10M by the Linux Foundation",
+        "description": "<p>CommunityBridge is a platform created by the Linux Foundation to empower developers — and the individuals and organizations who support them — to advance open source sustainability, security, and diversity. </p>\n</br>\n<p>CommunityBridge brings together project maintainers, contributors, and users to fund open source projects, improve code security, boost the size and diversity of open source communities, and much more.</p>",
+        "logo": "/assets/logos/communitybridge-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.743Z",
+      "updatedAt": "2020-08-27T05:29:45.743Z"
+    },
+    {
+      "id": "a237ea38-199d-45b3-8db4-53b411cd1c2a",
+      "value": {
+        "id": "tidelift",
+        "name": "Tidelift",
+        "url": "https://tidelift.com/about/lifter",
+        "category": "Sponsorship",
+        "payoutType": "Monthly",
+        "payMethod": "Fiat",
+        "fees": "-",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/tiedelift.png",
+        "short": "Earn income for maintaining your open-source packages so subscription-paying clients can rely on them.",
+        "description": "<p>Tidelift provides a managed open source subscription that brings together open source maintainers and professional users of open source.</p>\n</br>\n<p>Customers buy subscriptions, and the income is used to pay the maintainers of the dependencies they rely on. Tidelift partners with open source maintainers to proactively solve key security, licensing, and maintenance challenges for organizations that rely on open source, while also providing tools that help measure and improve the organization’s open source dependency health.</p>",
+        "logo": "/assets/logos/tidelift-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.759Z",
+      "updatedAt": "2020-08-27T05:29:45.759Z"
+    },
+    {
+      "id": "d0897380-1d09-4feb-b54f-354846953a31",
+      "value": {
+        "id": "license-zero",
+        "name": "License Zero",
+        "url": "https://licensezero.com/",
+        "category": "Code Paywall",
+        "payoutType": "One-time",
+        "payMethod": "Fiat",
+        "fees": "0% + credit card processing fees",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/licensezero.png",
+        "short": "Sell licenses for the commercial use of open-source code.",
+        "description": "<p>licensezero.com works like a vending machine. Developers stock licensezero.com with licenses for for-profit and closed-source work. licensezero.com sells those licenses to users on developers’ behalf, and sends the proceeds directly to developers’ Stripe accounts.</p>\n</br>\n<p>Contributors can choose from two new licenses, Parity and Prosperity, that make their work free for not-for-profit or open-source users, then sell private licenses to other devs who want to use for profit or in closed source. Everything happens through a simple, dev-friendly interface.</p>",
+        "logo": "/assets/logos/licensezero-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.769Z",
+      "updatedAt": "2020-08-27T05:29:45.769Z"
+    },
+    {
+      "id": "2800094c-a13b-4f27-a324-803607b21f88",
+      "value": {
+        "id": "saasify",
+        "name": "Saasify",
+        "url": "https://saasify.sh/#/",
+        "category": "Passive Income",
+        "payoutType": "On-Demand",
+        "payMethod": "Fiat",
+        "fees": "20% on subscription revenue generated",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/saasify.png",
+        "short": "Earn passive income on open source projects via SaaS APIs.",
+        "description": "<p>Developers wrap their existing open source project in a serverless function using JS, TS, or Python. Then, the project is deployed as a monetizable API with the Sassify CLI and a custom website is generated to handle billing, accounts, docs and hosting.</p>\n</br>\n<p>Choose between various monetization options, then Sassify acts as a buffer between you and paying customers, taking care of business development, marketing and support requests</p>",
+        "logo": "/assets/logos/saasify-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.772Z",
+      "updatedAt": "2020-08-27T05:29:45.772Z"
+    },
+    {
+      "id": "18281e2d-94f1-4207-a503-c9a3d43c0020",
+      "value": {
+        "id": "scarf",
+        "name": "Scarf",
+        "url": "https://scarf.sh/",
+        "category": "Code Paywall",
+        "payoutType": "One-time",
+        "payMethod": "Fiat",
+        "fees": "2.9% + 30¢ (then 5% after beta)",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/scarf.png",
+        "short": "System package manager that tracks usage statistics until users pay.",
+        "description": "<p>A developer-centric cross-platform system package manager that allows for the easy software distribution and installation for users. It allows you to gain insights into how your software is being used, including install counts, exit codes, execution times, sub-commands and flags that are passed on the command line, and more.</p>\n</br>\n<p>Users who want to support your work, or use your package without reporting usage statistics can pay via Stripe in exchange for the removal of the wrapper at a price you choose.</p>",
+        "logo": "/assets/logos/scarf-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.774Z",
+      "updatedAt": "2020-08-27T05:29:45.774Z"
+    },
+    {
+      "id": "c85ed15a-19fa-4d81-9f61-a66710594e19",
+      "value": {
+        "id": "open-technology-fund",
+        "name": "Open Technology Fund",
+        "url": "https://www.opentech.fund/funds/",
+        "category": "Grant",
+        "payoutType": "One-time",
+        "payMethod": "Fiat",
+        "fees": "-",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/opentechnologyfund.png",
+        "short": "Non-profit aiming to support global internet freedom technologies.",
+        "description": "<p>The Open Technology Fund (OTF) is a non-profit organization committed to advancing global Internet freedom. OTF supports projects focused on counteracting repressive censorship and surveillance, enabling citizens worldwide to exercise their fundamental human rights online.</p>\n</br>\n<p>OTF supports research, development, implementation, and sustainability of technologies that facilitate the free flow of information, increase at-risk users’ digital security, and enable free expression to facilitate positive social progress and reinforce core democratic values.</p>",
+        "logo": "/assets/logos/opentechnologyfund-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.786Z",
+      "updatedAt": "2020-08-27T05:29:45.786Z"
+    },
+    {
+      "id": "988797f3-054a-49fe-a9cf-2ce29a028bad",
+      "value": {
+        "id": "gitcoin",
+        "name": "Gitcoin Grants",
+        "url": "https://gitcoin.co/grants/",
+        "category": "Sponsorship",
+        "payoutType": "One-time / scheduled",
+        "payMethod": "Crypto ",
+        "fees": "-",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/gitgrant.png",
+        "short": "Providing matching funds + monthly subscriptions for open source maintainers.",
+        "description": "<p>Gitcoin Grants is an initiative that leverages a tokenized subscription model to allow anyone to fund any grant with as little as 1 DAI.</p>\n</br>\n<p>It uses quadratic funding - a scheme in which Gitcoin matches grants relative to the number of individual contributors, so that grant proposals with the most community support (in terms of the number of contributors) will receive the largest portions of the matching pool.</p>",
+        "logo": "/assets/logos/gitcoin-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.789Z",
+      "updatedAt": "2020-08-27T05:29:45.789Z"
+    },
+    {
+      "id": "fca60435-0429-4921-a16d-538062d1c19d",
+      "value": {
+        "id": "git-market",
+        "name": "Git.Market",
+        "url": "https://git.market/",
+        "category": "Code Paywall",
+        "payoutType": "One-time",
+        "payMethod": "Fiat",
+        "fees": "-",
+        "openSourceFocus": false,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/gitmarket.png",
+        "short": "A marketplace for buying and selling code using private Git repositories.",
+        "description": "<p>GitMarket is a marketplace for buying and selling code using private Git repositories.</p>\n</br>\n<p>Monetize your code; HTML/CSS templates, Libraries and snippets of any kind. (Supported languages: JavaScript, PHP, Python, Ruby, Node.js, Rust, Go, etc...)</p>\n</br>\n<p>Note: This project may not be currently maintained, however it is still listed here. The purpose of this website is to support and bring awareness to projects that support open source developers.</p>",
+        "logo": "/assets/logos/gitmarket-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.789Z",
+      "updatedAt": "2020-08-27T05:29:45.789Z"
+    },
+    {
+      "id": "c24364aa-6c4a-440c-9fc0-e65eac544dfe",
+      "value": {
+        "id": "mesg",
+        "name": "MESG",
+        "url": "https://mesg.com/mesg-marketplace",
+        "category": "Passive Income",
+        "payoutType": "On-Demand",
+        "payMethod": "Crypto",
+        "fees": "0% + server hosting costs",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/mesg.png",
+        "short": "Earn royalties from open-source code while being rewarded for computational support.",
+        "description": "<p>MESG gives developers royalty income for the reuse of their code. Developers build components such as services using any languages, then choose a price per execution and make it available for anyone to use on the decentralized network.</p>\n</br>\n<p>Open-source components can be viewed and implemented for free, but each time they are used, a cryptocurrency micropayment is sent to the original creator.</p>\n</br>\n<p>Prices are chosen by the developer, and fees are paid directly to the service creator and to those who help emit and validate tasks on the network. No middle men required.</p>\n</br>\n<p>Note: Mainnet currently under development</p>",
+        "logo": "/assets/logos/mesg-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.799Z",
+      "updatedAt": "2020-08-27T05:29:45.799Z"
+    },
+    {
+      "id": "366fd5e7-2b94-4843-97d2-4eefe2c6ea94",
+      "value": {
+        "id": "patreon",
+        "name": "Patreon",
+        "url": "https://www.patreon.com/",
+        "category": "Sponsorship",
+        "payoutType": "Recurring ",
+        "payMethod": "Fiat",
+        "fees": "5% + credit card fees",
+        "openSourceFocus": false,
+        "devFocus": false,
+        "screenshot": "/assets/screenshots/patreon.png",
+        "short": "Gain sponsors in exchange for exclusive content and support.",
+        "description": "<p>Patreon is a sponsorship platform that makes it easy for creators to get paid.</p>\n</br>\n<p>Fans pay creators a subscription amount of their choice in exchange for exclusive content, support & behind-the-scenes content.</p>\n</br>\n<p>Predictable income from your patrons means you can create on your terms. No strings attached.</p>",
+        "logo": "/assets/logos/patreon-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.804Z",
+      "updatedAt": "2020-08-27T05:29:45.804Z"
+    },
+    {
+      "id": "2e1cd645-620c-4c72-98ac-87553441c1fb",
+      "value": {
+        "id": "selfstarter",
+        "name": "Selfstarter",
+        "url": "https://selfstarter.us/",
+        "category": "Sponsorship",
+        "payoutType": "Customizable",
+        "payMethod": "Customizable",
+        "fees": "FREE",
+        "openSourceFocus": true,
+        "devFocus": true,
+        "screenshot": "/assets/screenshots/selfstarter.png",
+        "short": "A free, open-source starting point for building your own crowdfunding site.",
+        "description": "<p>Selfstarter is an open-source starting point for building your own ad-hoc crowdfunding site. It allows anyone “roll their own” crowdfunding effort by simply forking its code.</p>\n</br>\n<p>Selfstarter's code is available for anyone's use on GitHub along with instructions for getting started. By downloading the code, users get a rudimentary site to which they can add their own authentication, administration, and product management code.</p>",
+        "logo": "/assets/logos/selfstarter-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.805Z",
+      "updatedAt": "2020-08-27T05:29:45.805Z"
+    },
+    {
+      "id": "79272194-b5bd-4df1-aeea-9095d93c6648",
+      "value": {
+        "id": "buy-me-a-coffee",
+        "name": "Buy Me A Coffee",
+        "url": "https://www.buymeacoffee.com/",
+        "category": "Sponsorship",
+        "payoutType": "Recurring, one-time",
+        "payMethod": "Fiat",
+        "fees": "5%",
+        "openSourceFocus": false,
+        "devFocus": false,
+        "screenshot": "/assets/screenshots/buymeacoffee.png",
+        "short": "A friendly way for creators to receive donations from their audience.",
+        "description": "<p>Buy Me A Coffee is a friendly way for creators to receive support, share exclusive content, sell digital downloads and more.</p>\n</br>\n<p>If you are a creator, you can set up your Buy Me A Coffee page for free and start accepting donations right away. Share your BMC link or place the button on your site to get the coffee flowing.</p>",
+        "logo": "/assets/logos/buymeacoffee-logo.svg"
+      },
+      "createdAt": "2020-08-27T05:29:45.810Z",
+      "updatedAt": "2020-08-27T05:29:45.810Z"
+    }
+  ]
+}
